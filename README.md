@@ -1,4 +1,5 @@
 # CRUD com python usando DJANGO
+------------------------------------------
 
 Faça download cliando em download zip onde mostra a imagem:
 
