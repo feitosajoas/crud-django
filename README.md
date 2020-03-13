@@ -1,6 +1,6 @@
 # CRUD com python usando DJANGO
 
-Faça download cliando em download zip onde mostra a imagem:
+aça download cliando em download zip onde mostra a imagem:
 
 >![fg4](https://user-images.githubusercontent.com/49026950/76280713-89be5480-6271-11ea-915a-bd484b91b0b7.png)
 
