@@ -9,22 +9,16 @@ Ou clone o projeto com o comando (necessário ter o github instalado em sua máq
 $ git clone https://github.com/feitosajoas/crud-django.git
 ```
 ---------------------------------------------------------------
-Para início do projeto, deve-se criar uma pasta venv. Assim instalando o django dentro dela, para não termos problemas futuros.
+Para início do projeto deve-se criar um ambiente virtual, usei o pipenv para este projeto. Assim instalando o django dentro dele, para não termos problemas futuros.
 
-#### Executar os seguintes comandos para criar a venv dentro da pasta do projeto e instalar o django nela:
+#### Executar os seguintes comandos para criar o ambiente dentro da pasta do projeto e instalar o django nela:
 ```
-python -m venv venv
+$ cd proj-ecope
+$ pipenv install
 ```
-Em seguida, ativa-se a venv que foi criada:
+Quando o ambiente virtual estiver pronto instalamos o django:
 ```
-$ cd venv
-$ cd Scripts
-$ activate
-```
-Quando ativarmos a venv instalamos o django. Para isso tem que sair da pasta Scripts:
-```
-$ cd ..
-$ pip install django
+$ pipenv install django
 ```
 
 #### Com o ambiente virtual todo preparado dentro da pasta do projeto vamos aos comandos que cria o banco de dados:
